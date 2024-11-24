@@ -131,7 +131,7 @@ $$
 **Формула:**
 
 $$
-\text{Mixed}(I_1, I_2) = \sum_{i=1}^{n} w_i \cdot \text{Method}_i(I_1, I_2)
+\text{Mixed}(I_1, I_2) = \frac{1}{\sum_{i=1}^{n} w_i} \sum_{i=1}^{n} w_i \cdot \text{Method}_i(I_1, I_2)
 $$
 
 где:
