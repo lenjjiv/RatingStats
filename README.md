@@ -22,16 +22,6 @@
 - `calculate_ci_from_ratings`: Рассчитывает доверительные интервалы для среднего на основе списка оценок.
 - `calculate_ci_from_counts`: Рассчитывает доверительные интервалы для среднего на основе количества каждой оценки.
 
-**Пример использования:**
-
-```python
-from rating_stats import calculate_ci_from_ratings
-
-ratings = [1, 2, 2, 1, 0]
-result = calculate_ci_from_ratings(ratings, max_rating=2, alpha=0.95, method="wilson")
-print(result)
-```
-
 ### Метод Вальда
 
 Метод Вальда — это классический доверительный интервал, основанный на нормальном распределении.
